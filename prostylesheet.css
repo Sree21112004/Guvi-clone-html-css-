@@ -1,0 +1,154 @@
+#header{
+    margin: 20px 0px 20px 0px;
+}
+.container{
+    background-color: white;
+    margin: auto;
+    width: 1300px;
+}
+#face{
+    background-color: #301352;
+    height: 400px;
+    color: white;
+    display: flex;
+}
+h1{
+    padding: 40px;
+    font-size: 42px;
+}
+.face-right{
+    flex-basis: 50%;
+}
+.face-left{
+    padding: 50px;
+    flex-basis: 50%;
+}
+#description{
+    height: 400px;
+    display: flex;
+    background-color: #dedede;
+}
+.des-left{
+    flex-basis: 50%;
+    padding: 50px;
+}
+.des-right{
+    flex-basis: 50%;
+}
+#programs{
+    padding: 34px;
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+}
+.program{
+    background-color: gainsboro;
+    flex-basis: 20%;
+    border: solid 1px grey;
+    margin: 26px;
+}
+.program-title{
+    padding-left: 129px;
+    padding-top: 70px;
+    margin-bottom: -44px;
+}
+.TCPfont{
+    font-size: 20px;
+    line-height: 1.5;
+    padding-left: 65px;
+}
+.facerightpic{
+    padding: 23px;
+    height: 353px;
+}
+.desfont{
+    font-size: 20px;
+    padding-left: 44px;
+}
+.despic{
+    height: 258px;
+    padding: 70px;
+}
+.whole{
+    height: 600px;
+}
+.program-button{
+    display: block;
+    background-color: #0dba4b;
+    color: #f7f9fa;
+    margin: 46px;
+    height: 27px;
+    padding: 24px;
+    position: relative;
+    bottom: -46px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    padding-top: 5px;
+}
+.program :hover{
+    background-color: #f7f9fa;
+    color: #0dba4b;
+}
+.submit{
+    display: block;
+    background-color: #0dba4b;
+    color: white;
+}
+#reqform{
+    padding-left: 20px;
+    height: 430px;
+    background-color: #dedede;
+    text-align: center;
+}
+.form-frame{
+    padding-left: 323px;
+}
+#awards-sec{
+    text-align: center;
+    height: 400px;
+    margin-bottom: 30px;
+
+}
+.awards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.award{
+    flex-basis: 30.33%;
+    background-color: #dedede;
+    margin: 5px;
+    margin-left: 20px;
+    height: 50px;
+    height: 300px;
+}
+#benefits{
+    background-color: #dedede;
+    margin-top: 100px;
+    height: 300px;
+}
+.ben-title{
+    text-align: center;
+    padding-top: 16px;
+}
+.benefits{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 323px;
+}
+.ben-left,
+.ben-right{
+    flex-basis: 50%;
+    line-height: 1.5;
+}
+#footer{
+    background-color:#301352 ;
+    height: 180px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+.footer-text{
+    text-align: center;
+    color: #f7f9fa;
+}
